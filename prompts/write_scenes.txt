@@ -1,0 +1,9 @@
+Write a detailed narrative scene based on this story beat:
+
+Beat: {beat}
+
+Requirements:
+- Rich emotional detail
+- Futuristic AGI-lab atmosphere
+- Keep Romeo and Juliet's arc visible
+- Maintain consistency with previous outputs

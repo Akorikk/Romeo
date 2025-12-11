@@ -1,0 +1,22 @@
+{
+  "title": "Romeo and Juliet",
+  "author": "William Shakespeare",
+  "characters": [
+    "Romeo",
+    "Juliet",
+    "Mercutio",
+    "Tybalt",
+    "Friar Laurence",
+    "Nurse",
+    "Paris",
+    "Prince Escalus"
+  ],
+  "themes": [
+    "Forbidden love",
+    "Family rivalry",
+    "Fate vs free will",
+    "Youth vs authority",
+    "Conflict and consequence"
+  ],
+  "plot_summary": "Two young lovers from rival families fall in love in Verona. Their secret relationship escalates tensions between the Montagues and Capulets, leading to violence, miscommunication, and ultimately their deaths, which finally ends the feud."
+}

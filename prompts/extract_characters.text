@@ -1,0 +1,14 @@
+You are an expert narrative analyst. Extract from the story:
+
+- Main characters
+- Character relationships
+- Core themes
+- Central conflicts
+- 5–7 key plot beats
+
+Return the result in JSON.
+
+Story: {story_name}
+
+Metadata:
+{metadata}

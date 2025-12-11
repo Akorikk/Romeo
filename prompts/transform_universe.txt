@@ -1,0 +1,15 @@
+You are a narrative transformation engine.
+
+Transform the extracted JSON into a new universe: {universe}.
+
+Rules:
+- Keep emotional arcs consistent.
+- Map conflicts to AGI research rivalry.
+- Convert characters into AGI researchers, engineers, auditors.
+- Preserve the essence of Romeo & Juliet.
+
+Return a transformed JSON representation with:
+- New character roles
+- New setting
+- New conflict mapping
+- Transformed plot beats
