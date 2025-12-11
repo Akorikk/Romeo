@@ -4,14 +4,32 @@ from src.chain import PromptChain
 from src.story_builder import StoryBuilder
 from src.utils import load_metadata, save_output
 
-# Replace with your model call (OpenAI, Gemini, etc.)
-def dummy_llm(prompt):
-    # For debugging — replace with real model call
-    return "LLM_OUTPUT_FOR: " + prompt[:150]
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
+# Load environment variables
+load_dotenv()
+
+# Initialize OpenAI client
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# Real LLM function
+def llm(prompt):
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",   # or gpt-4.1 or gpt-4o
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    return response.choices[0].message["content"]
+
+
+# -------------------------
+# MAIN PIPELINE
+# -------------------------
 def main():
-    llm = dummy_llm  # Replace with real model
-    
+
     print("\nLoading original metadata...")
     metadata = load_metadata()
 
@@ -41,7 +59,9 @@ def main():
     final_story = builder.assemble(scenes)
 
     save_output(final_story, "final_story.txt")
-    print("\nStory generated successfully!")
+    print("\nStory generated successfully! File saved as final_story.txt")
 
+
+# Entry point
 if __name__ == "__main__":
     main()
