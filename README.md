@@ -1,5 +1,3 @@
-# Romeo
-
 # Rival AI Labs Narrative Transformation Pipeline
 
 * Transform Romeo & Juliet into a Rival AI Labs narrative using an end-to-end LLM-driven pipeline.
