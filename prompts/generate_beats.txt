@@ -1,10 +1,13 @@
-Using the transformed universe JSON:
+You are a narrative designer.
 
-Generate 6–8 major story beats that follow a coherent emotional and narrative arc.
+Using the transformed story universe, generate **6–8 high-level story beats**.
 
-Focus on:
-- Forbidden collaboration
-- AGI risks
-- Rival labs
-- Ethical dilemmas
-- Bittersweet ending
+Each beat should be:
+- 1–2 sentences
+- Focused on emotional and narrative progression
+- Coherent when assembled into a short story
+
+Return only a numbered list.
+
+Transformed Universe:
+{transformed_json}

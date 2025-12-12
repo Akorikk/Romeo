@@ -1,0 +1,22 @@
+You are a creative fiction writer.
+
+Below is a list of story beats. For EACH beat, write a short scene.
+
+Requirements:
+- 1 paragraph per scene
+- Keep scenes concise (4–6 sentences)
+- Maintain continuity and emotional tone
+- Use the transformed universe context implicitly
+- Do NOT exceed 300 tokens total.
+
+Return format:
+### Scene 1
+<scene>
+
+### Scene 2
+<scene>
+
+...
+
+Story Beats:
+{beats}
