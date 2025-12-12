@@ -1,22 +1,32 @@
-You are a creative fiction writer.
+Write EXACTLY 7 scenes based on the beats below.
 
-Below is a list of story beats. For EACH beat, write a short scene.
+RULES (MANDATORY):
+- You MUST write all 7 scenes.
+- Each scene MUST be 2–3 full paragraphs.
+- Each scene MUST follow the corresponding beat.
+- NO summarizing. NO skipping. NO merging beats.
+- NO physical danger, NO rogue AI, NO destruction scenes.
+- Tone must be emotional, intellectual, cinematic.
+- The story must follow a Romeo & Juliet style forbidden-collaboration arc.
+- The ending must be bittersweet.
 
-Requirements:
-- 1 paragraph per scene
-- Keep scenes concise (4–6 sentences)
-- Maintain continuity and emotional tone
-- Use the transformed universe context implicitly
-- Do NOT exceed 300 tokens total.
-
-Return format:
+FORMAT (MANDATORY):
 ### Scene 1
-<scene>
+(Paragraph 1)
+(Paragraph 2)
 
 ### Scene 2
-<scene>
+(Paragraph 1)
+(Paragraph 2)
 
-...
+...continue this format…
 
-Story Beats:
+### Scene 7
+(Paragraph 1)
+(Paragraph 2)
+
+You MUST NOT stop early.
+You MUST output all 7 scenes.
+
+BEATS:
 {beats}

@@ -1,13 +1,25 @@
-You are a narrative designer.
+You MUST generate EXACTLY 7 beats. No more, no less.
 
-Using the transformed story universe, generate **6–8 high-level story beats**.
+Each beat MUST be numbered 1–7.
 
-Each beat should be:
-- 1–2 sentences
-- Focused on emotional and narrative progression
-- Coherent when assembled into a short story
+Each beat MUST be 1–2 sentences.
 
-Return only a numbered list.
+If you understand say nothing — just output the beats.
 
-Transformed Universe:
-{transformed_json}
+Beats:
+1. AI Expo: Julian and Aditi clash publicly.
+2. Investors force the two rival labs to collaborate.
+3. Emotional and ethical tension grows during joint research.
+4. They discover a dangerous AGI design flaw.
+5. Crisis peaks — they must choose between careers and saving the world.
+6. Sacrifice: one of them gives up something important to prevent catastrophe.
+7. Bittersweet ending: they succeed but cannot remain together.
+
+STRICT RULES:
+- NO rogue AI.
+- NO violent malfunction.
+- NO destruction scenes.
+- Conflict must stay emotional & ethical.
+- Follow the Romeo & Juliet emotional arc.
+
+Return ONLY the numbered list (1–7). No intro, no explanation.

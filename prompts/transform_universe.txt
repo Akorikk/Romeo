@@ -1,15 +1,19 @@
-You are a narrative transformation engine.
+Transform the Romeo & Juliet emotional arc into a modern Rival AI Labs universe.
 
-Transform the extracted JSON into a new universe: {universe}.
+Requirements:
+- Julian Stellan → NeuroSpark scientist (logical, disciplined)
+- Aditi Patel → EchoMind scientist (idealistic, bold)
+- Rival AGI labs: NeuroSpark vs EchoMind
+- Forced collaboration to repair a dangerous AGI design flaw
+- Conflict must stay emotional, ethical, and interpersonal — NOT physical danger
+- NO rogue AI behavior, NO destruction sequences
+- Must preserve Romeo & Juliet’s theme of forbidden connection
+- Ending MUST be bittersweet — they save the world but cannot be together
 
-Rules:
-- Keep emotional arcs consistent.
-- Map conflicts to AGI research rivalry.
-- Convert characters into AGI researchers, engineers, auditors.
-- Preserve the essence of Romeo & Juliet.
-
-Return a transformed JSON representation with:
-- New character roles
-- New setting
-- New conflict mapping
-- Transformed plot beats
+Return ONLY a clean JSON describing:
+- Characters
+- Rival labs
+- World background
+- Emotional dynamics
+- Core conflict
+- Mandated bittersweet resolution
